@@ -1,14 +1,14 @@
-﻿const Discord = require('discord.js');
+const Discord = require('discord.js');
 const client = new Discord.Client();
-var prefix = "1";
+var prefix = "7";
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);  
 });
 
 client.on('ready', async() => {
-var server = "510169463568597023"; // ايدي السررفر
-var channel = "510169463568597025";//ايدي الروم
+var server = "499213116941533184"; // ايدي السررفر
+var channel = "502827265281884161";//ايدي الروم
     setInterval(()=>{
     client.guilds.get(server).channels.get(channel).send('**Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , **')
     },305);
